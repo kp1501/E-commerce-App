@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">E-commerce Application</string>
+    <string name="app">E-commerce</string>
+    <string name="login">Sign In</string>
+    <string name="create_account">Create An Account</string>
+    <string name="register">Sign Up</string>
+    <string name="login_account">Login Instead</string>
+    <string name="email">Enter Email</string>
+    <string name="name">Enter Name</string>
+    <string name="pass">Enter Password</string>
+    <string name="amount">Amount</string>
+    <string name="category">Category</string>
+    <string name="desc">Description</string>
+    <string name="description">This is the description text of any item that will be shown into the detail layout.</string>
+    <string name="add_to_cart">Add to cart</string>
+    <string name="p_name">Name</string>
+    <string name="add_item">Add Item</string>
+    <string name="wishlist">Wishlist</string>
+    <string name="manage_address">Manage Address</string>
+    <string name="logout">Logout</string>
+    <string name="address">16/392, H-Block, Basic Street beside h building, New york city</string>
+    <string name="cart_name">Name</string>
+    <string name="cart_qty">1</string>
+    <string name="cart_price">1100</string>
+    <string name="cart_rs">Rs</string>
+    <string name="cart_initial_price">Product amount</string>
+    <string name="cart_total_price">Total amount</string>
+    <string name="cart_place_order">Place Order</string>
+    <string name="add_name">Enter Name</string>
+    <string name="add_amount">Enter Price</string>
+    <string name="add_description">Enter Description</string>
+    <string name="add_category">Enter Category</string>
+    <string name="add_item_btn">Add Item</string>
+    <string name="address_add">Set</string>
+    <string name="remove_address">Delete</string>
+    <string name="address_enter">Enter Address</string>
+    <string name="wishlist_tv">Products you have saved to buy later</string>
+    <string name="wishlist_suggested_tv">Suggested products for you</string>
+    <string name="cart_screen">Shopping Bag</string>
+    <string name="detail_screen">Product Detail</string>
+    <string name="login_screen">Login</string>
+    <string name="register_screen">Register</string>
+    <string name="add_screen">Add Product</string>
+    <string name="address_screen">Address</string>
+    <string name="wishlist_screen">Wishlist</string>
+    <string name="wishlist_cart_visit">View cart</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
