@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rectangle"
+    android:orientation="vertical"
+    android:layout_marginHorizontal="@dimen/_5sdp"
+    android:layout_marginVertical="@dimen/_10sdp">
+
+    <TextView
+        android:id="@+id/address_item_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="4"
+        android:textSize="18sp"
+        android:padding="@dimen/_5sdp"
+        android:textColor="@color/blue_grey_700"
+        android:layout_margin="@dimen/_10sdp"
+        android:text="@string/address"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginVertical="@dimen/_10sdp"
+        android:weightSum="1">
+        <TextView
+            android:id="@+id/address_item_set"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:textAllCaps="false"
+            android:textSize="12sp"
+            android:background="@drawable/item_back"
+            android:textAlignment="center"
+            android:textColor="@color/blue_800"
+            android:padding="@dimen/_3sdp"
+            android:layout_marginHorizontal="@dimen/_40sdp"
+            android:text="@string/address_add"/>
+        <TextView
+            android:id="@+id/address_item_remove"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:textAllCaps="false"
+            android:textSize="12sp"
+            android:textColor="#F40C0C"
+            android:padding="@dimen/_3sdp"
+            android:textAlignment="center"
+            android:background="@drawable/item_back"
+            android:layout_marginHorizontal="@dimen/_40sdp"
+            android:text="@string/remove_address"/>
+    </LinearLayout>
+
+</LinearLayout>
